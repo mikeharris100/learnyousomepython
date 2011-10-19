@@ -1,3 +1,9 @@
 [submodule "deck"]
 	path = deck
 	url = git://github.com/imakewebthings/deck.js.git
+[submodule "extensions/console-notes"]
+	path = extensions/console-notes
+	url = git://github.com/mikeharris100/deck.console-notes.js.git
+[submodule "themes/carbon"]
+	path = themes/carbon
+	url = git://github.com/mikeharris100/deck.js-theme-carbon.git
