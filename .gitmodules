@@ -7,3 +7,6 @@
 [submodule "themes/carbon"]
 	path = themes/carbon
 	url = git://github.com/mikeharris100/deck.js-theme-carbon.git
+[submodule "extensions/pointer"]
+	path = extensions/pointer
+	url = git://github.com/mikeharris100/deck.pointer.js.git
