@@ -4,9 +4,9 @@
 [submodule "extensions/console-notes"]
 	path = extensions/console-notes
 	url = git://github.com/mikeharris100/deck.console-notes.js.git
-[submodule "themes/carbon"]
-	path = themes/carbon
-	url = git://github.com/mikeharris100/deck.js-theme-carbon.git
 [submodule "extensions/pointer"]
 	path = extensions/pointer
 	url = git://github.com/mikeharris100/deck.pointer.js.git
+[submodule "themes/style/carbon"]
+	path = themes/style/carbon
+	url = git://github.com/mikeharris100/deck.js-theme-carbon.git
