@@ -25,6 +25,14 @@
 	<link rel="stylesheet" id="style-theme-link" href="themes/style/carbon/css/carbon.css">
     <link rel="stylesheet" id="transition-theme-link" href="themes/transition/cube/cube.css">
 
+	<!-- Specific to this file -->
+    <style>
+        .twocol {
+            width:40%;
+            float:left;
+        }
+    </style>
+
 	<script src="deck/modernizr.custom.js"></script>
 </head>
 
@@ -133,6 +141,33 @@
         <li><code>r"This is a raw string"</code></li>
         <li><code>foo = "a" "b" "c"</code></li>
     </ul>
+</section>
+
+<section class="slide">
+    <h2>Truthiness</h2>
+</section>
+
+<section class="slide">
+    <h3>Truthiness</h3>
+    <div class="twocol">
+        <h4>False</h4>
+        <ul>
+            <li><code>False</code></li>
+            <li><code>None</code></li>
+            <li><code>""</code></li>
+            <li><code>0</code>, <code>0.0</code></li>
+            <li><code>[]</code>, <code>()</code>, <code>{}</code></li>
+        </ul>
+    </div>
+    <div class="twocol">
+        <h4>True</h4>
+        <ul>
+            <li><code>True</code></li>
+            <li>Any string but <code>""</code></li>
+            <li>Any number but <code>0</code></li>
+            <li>Any non-empty container</li>
+        </ul>
+    </div>
 </section>
 
 <section class="slide">
