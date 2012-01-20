@@ -294,6 +294,40 @@
     <h3>Idioms</h3>
     <ul>
         <li><code>a,b = b,a</code></li>
+        <li><code>val and t_conf or f_cond</code><div>or</div><code>t_cond if val else f_cond</code></li>
+   </ul>
+</section>
+
+<section class="slide">
+    <h3>Moar Idioms</h3>
+    <ul>
+        <li>
+            <pre class="code">
+if val == "case1":
+    func1()
+elif val == "case2":
+    func2()
+elif val == "case3":
+    func3()
+else:
+    funcdefault()
+            </pre>
+        </li>
+   </ul>
+</section>
+
+<section class="slide">
+    <h3>Still Moar Idioms</h3>
+    <ul>
+        <li>
+            <pre class="code">
+{"case1": func1,
+"case2": func2,
+"case3": func3,
+}.get(val, funcdefault)()
+            </pre>
+        </li>
+        <li>Also works with lambdas</li>
     </ul>
 </section>
 
